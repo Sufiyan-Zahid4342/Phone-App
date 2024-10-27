@@ -50,7 +50,7 @@ img {
     background-color: rgb(18, 255, 46);
 }
 button{
-    border-color: wheat;
+    border-color: rgb(221, 218, 212);
    font-weight: bolder;
     margin: 20px 0px;
     box-shadow:10px 10px 10px green;
@@ -62,6 +62,8 @@ button{
     background-color: black;
 }
  .button{
+    
+    
     text-align: center;
     /* justify-content: center; */
     /* align-items: center; */
@@ -90,7 +92,7 @@ gap: 20px;
     padding: 10px 20px;
 }
 
-.card button{
+/* .card button{
     width: 100%;
     margin: 20px 0px 0px 0px;
     padding: 10px 0px;
@@ -98,29 +100,34 @@ gap: 20px;
     border: 2px solid #ff99003b;
     cursor: pointer;
     transition: .4s;
-}
+} */
 
 /* .card button:hover {
     background-color: transparent;
 } */
-
-.checkout-btn {
+p,h4{
+    color: #0c0903;
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow:8px 8px 8px #22b1b4;
+}
+/* .checkout-btn {
     margin: 50px auto;
     text-align: center;
     width: 100%;
     justify-content: center;
-}
+} */
 
-.check-out {
+/* .check-out {
     background-color: #ffe7c4;
     border: 0;
     padding: 12px 50px;
     cursor: pointer;
-}
+}  */
 
 .cart-box {
     display: flex;
-    background-color: #fff;
+    background-color: #16cb3d;
     margin: 20px 50px;
     padding: 0px 0px;
     gap: 20px;
@@ -130,28 +137,30 @@ gap: 20px;
 .quantity {
     display: flex;
     width: 40%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     padding: 0px;
     justify-content: space-between;
-    border-radius: 100px;
+    /* border-radius: 5px; */
     margin: 10px 0px;
     align-items: center;
+    border-color: #fff;
 }
 
 .quantity button{
     width: 40%;
-    border-radius: 100px;
+    /* border-radius: 100px; */
+    border-color: #fff;
     border: 0;
     padding: 10px 0px;
-    background-color: #ff99003b;
+    /* background-color: #472c033b; */
     cursor: pointer;
 }
 
 .buy-now {
     margin: 10px 0px;
     padding: 10px 30px;
-    background-color: #ff99003b;
-    border: 2px  solid #ff99003b;
+    /* background-color: #93784f3b;
+    border: 2px  solid #ff99003b; */
 
     cursor: pointer;
 }
@@ -159,7 +168,7 @@ gap: 20px;
 .cart-box-image{
     width: 50%;
     text-align: center;
-    background-color: #ff99003b;
+    /* background-color: #ff99003b; */
 }
 
 .cart-box-image img{
@@ -204,7 +213,7 @@ gap: 20px;
     .cart-box-image {
         width: 100%;
         text-align: center;
-        background-color: #ff99003b;
+        /* background-color: #ff99003b; */
     }
 
     .cart-box-content {

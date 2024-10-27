@@ -33,6 +33,8 @@ console.log(convert);
 let output = document.querySelector("#output");
 
 convert.map((item, index) => {
+ 
+  
   output.innerHTML += `
     <div class="cart-box">
       <div class="cart-box-image">
@@ -52,7 +54,10 @@ convert.map((item, index) => {
       </div>
     </div>
   `;
+  
+
 });
+
 
 function plus(index, price) {
   let quantityElem = document.querySelector(`#qun-num-${index}`);
@@ -71,5 +76,20 @@ function minus(index, price) {
 }
 
 function buynow() {
-  Swal.fire("Your Order Has Been  Placed");
+  swal({
+    title: "Are you sure?",
+    text: "Once you Add, Your Oder will be submited!",
+    icon: "warning",
+    buttons: true,
+    dangerMode: true,
+  })
+  .then((willDelete) => {
+    if (willDelete) {
+      swal("Poof! Your imaginary phone  item has been Added", {
+        icon: "success",
+      });
+    } else {
+      swal("Your imaginary phone  item is safe in draft!");
+    }
+  });
 }
