@@ -88,7 +88,7 @@ const phones = [
       camera: "64 megapixel",
       price: 499,
     },
-    {image:"https://www.bing.com/images/blob?bcid=qA4DAC9.OawHrw",
+    {image:"https://th.bing.com/th/id/OIP.xtvoMGXGcYj2PybcaBmlmQHaHa?w=980&h=980&rs=1&pid=ImgDetMain",
       brand: "Asus",
       model: "ROG Phone 5",
       ram: 16,
